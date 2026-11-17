@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (nunca versionar credenciais)
+.env
+.env.local
+!.env.example
+
+# Build e cache do Next.js
+.next/
+out/
+
+# Logs e cobertura
+*.log
+coverage/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
